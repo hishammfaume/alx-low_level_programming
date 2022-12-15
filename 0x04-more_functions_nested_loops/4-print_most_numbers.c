@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_most_numbers - prints most numbers
@@ -5,12 +6,15 @@
  */
 void print_most_numbers(void)
 {
-	char c;
+	int c;
 
-	for (c = '0'; c <= '9'; c++)
+	for (c = 48; c < 58; c++)
 	{
-		if (!(c == '2' || c == '4'))
-		_putchar(c);
+		if ((c == 50 || c == 52))
+		{
+			continue;
+		}
+		putchar(n);
 	}
-	_putchar('\n');
+	_putchar(10);
 }
