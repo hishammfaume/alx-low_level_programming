@@ -1,1 +1,1 @@
-readme created for prinyed numbers
+3-print_numbers.c
