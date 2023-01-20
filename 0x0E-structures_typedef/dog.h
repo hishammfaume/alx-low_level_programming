@@ -19,3 +19,4 @@ void doggy(struct dog *d, char *name, float age, char *owner)
 		d->owner = owner;
 	}
 }
+typedef struct dog dog_t;
